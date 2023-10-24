@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Intel"
+    sans-serif;
+}
+ul,
+ol li{
+    list-style: none ; 
+}
+a {
+    font-family:"Intel",
+    sans-serif;
+    text-decoration: none;
+}
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header {
+    background-color: #0a0a0a;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    .header-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu {
+        display: flex;
+    }
+    .menu li{
+        margin-right: 30px;
+    }
+    menu-li:last-child{
+        margin-right: 0;
+    }
+    .menu li a,
+    .phone {
+        color: #717171;
+        font-weight: 400;
+    }
+    .logo {
+        width: 15%;
+    }
+
+}
